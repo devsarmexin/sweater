@@ -71,11 +71,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>log4j</groupId>-->
-<!--            <artifactId>log4j</artifactId>-->
-<!--            <version>1.2.17</version>-->
-<!--        </dependency>-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
@@ -96,6 +91,12 @@
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
             <version>6.3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.springframework.session/spring-session-jdbc -->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-jdbc</artifactId>
+            <version>2.2.2.RELEASE</version>
         </dependency>
 
     </dependencies>
